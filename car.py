@@ -1,4 +1,7 @@
-class Car:
+from vehicle import Vehicle
+
+
+class Car(Vehicle):
 
     ENGINE_CAPAcCITY1_5 = 1.5
     ENGINE_CAPAcCITY1_6 = 1.6

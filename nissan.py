@@ -1,9 +1,14 @@
 from car import Car
+from vehicle import Vehicle
 
 
-class Nissan(Car):
+class Nissan(Car, Vehicle):
 
+    vehicle_type = "sedan"
     price = 2000000
+
+    def __str__(self):
+        return f'Автомобиль {self.vehicle_type} {self.name_car} цвета {self.color_car}'
 
     def horse_powers(self, volume):
         if volume <= Nissan.ENGINE_CAPAcCITY1_5:

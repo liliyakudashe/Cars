@@ -6,6 +6,7 @@ nissan_qashqai = Nissan("Nissan Qashqai", "Синий")
 nissan_qashqai_horse = nissan_qashqai.horse_powers(Nissan.ENGINE_CAPAcCITY2)
 nissan_qashqai_price = nissan_qashqai.price_car(Nissan.ENGINE_CAPAcCITY2)
 
+
 print(nissan_qashqai)
 print(nissan_qashqai_horse)
 print(nissan_qashqai_price)
